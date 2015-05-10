@@ -1,0 +1,30 @@
+[
+  {
+    "name": "overlay_update",
+    "title": "Scoreboard Labels",
+    "width": 4,
+    "file": "overlay_update.jade",
+    "faIcon": "fa-tasks"
+  },
+  {
+    "name": "change_scene",
+    "title": "Change Scene",
+    "width": 2,
+    "file": "change_scene.jade",
+    "faIcon": "fa-video-camera"
+  },
+  {
+    "name": "list_control",
+    "title": "Up Next",
+    "width": 2,
+    "file": "list_control.jade",
+    "faIcon": "fa-list"
+  },
+  {
+    "name": "lower_third",
+    "title": "Lower Third",
+    "width": 3,
+    "file": "lower_third.jade",
+    "faIcon": "fa-info"
+  }
+]

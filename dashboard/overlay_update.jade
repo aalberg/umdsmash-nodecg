@@ -1,0 +1,68 @@
+.row
+    .col-xs-12
+        .btn-group.btn-group-justified
+            .btn-group
+                label.singles_btn.btn.btn-xs.active Singles
+            .btn-group
+                label.doubles_btn.btn.btn-xs Doubles
+.row
+    .col-xs-12
+        .btn-group.btn-group-justified
+            .btn-group
+                label.melee_btn.btn.btn-xs.active Melee
+            .btn-group
+                label.pm_btn.btn.btn-xs Project M
+.row
+    .col-xs-6.npright
+        input.form-control(id="title", placeholder="Title")
+    .col-xs-6.npleft
+        input.form-control(id="round", placeholder="Round")
+.row
+    .col-xs-1.npright
+        input.form-control.score-input(id="score_left")
+    .col-xs-5.npright
+        input.form-control(id="player_left1", placeholder="Player Left")
+    .col-xs-5.npleft
+        input.form-control(id="player_right1", placeholder="Player Right")
+    .col-xs-1.npleft
+        input.form-control.score-input(id="score_right")
+.row.doubles_row
+    .col-xs-1
+    .col-xs-5.npright
+        input.form-control(id="player_left2", placeholder="Player Left 2")
+    .col-xs-5.npleft
+        input.form-control(id="player_right2", placeholder="Player Right 2")
+    .col-xs-1
+.row
+    .col-xs-3.npright
+        select(id="char_left_1")
+    .col-xs-3.npright.npleft
+        select(id="char_left_2").doubles_row
+    .col-xs-3.npright.npleft
+        select(id="char_right_1")
+    .col-xs-3.npleft
+        select(id="char_right_2" style="width: 125px").doubles_row
+.row
+    .col-xs-6.npright
+        input.form-control(id="player_cam", placeholder="Player Cam")
+    .col-xs-6.npleft
+        input.form-control(id="commentators", placeholder="Commentators")
+.row
+    .col-xs-12
+        input.form-control(id="bracket_link", placeholder="Bracket link")
+.row.doubles_row
+    .col-xs-12
+        .btn-group.btn-group-justified
+            .btn-group
+                button.swapleft_btn.btn.btn-xs.btn-primary(type="button") Swap Left Team
+            .btn-group
+                button.swapright_btn.btn.btn-xs.btn-primary(type="button") Swap Right Team
+.row
+    .col-xs-12
+        .btn-group.btn-group-justified
+            .btn-group
+                button.swap_btn.btn.btn-xs.btn-primary(type="button") Swap Sides
+            .btn-group
+                button.update_btn.btn.btn-xs.btn-primary(type="button") Update
+            .btn-group
+                button.sprites_btn.btn.btn-xs.btn-primary(type="button") Reload Sprites

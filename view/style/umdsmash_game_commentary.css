@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'source_sans_pro';
+    background-image: url('../img/Shell-Shocked-XVIII-Game-Commentary-Overlay.png');
+    top: 0;
+    left: 0;
+}
+.bg-white {
+    /*background-color: #FFFFFF;*/
+}
+.coming_up {
+    position: absolute;
+    left: 984px;
+    bottom: 356px;
+    height: 100px;
+    width: 900px;
+    font-size: 55px;
+    font-weight: 100;
+    text-align: center;
+    color: #FFFFFF;
+}

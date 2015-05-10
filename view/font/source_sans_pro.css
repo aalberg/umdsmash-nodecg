@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 100;
+    src: url('SourceSansPro-ExtraLight.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-style: italic;
+    font-weight: 100;
+    src: url('SourceSansPro-ExtraLightIt.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 300;
+    src: url('SourceSansPro-Light.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 300;
+    font-style: italic;
+    src: url('SourceSansPro-LightIt.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 400;
+    src: url('SourceSansPro-Regular.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 400;
+    font-style: italic;
+    src: url('SourceSansPro-It.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 500;
+    src: url('SourceSansPro-Semibold.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 500;
+    font-style: italic;
+    src: url('SourceSansPro-SemiboldIt.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 700;
+    src: url('SourceSansPro-Bold.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 700;
+    font-style: italic;
+    src: url('SourceSansPro-BoldIt.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 800;
+    src: url('SourceSansPro-Black.otf') format("opentype");
+}
+@font-face {
+    font-family: 'source_sans_pro';
+    font-weight: 800;
+    font-style: italic;
+    src: url('SourceSansPro-BlackIt.otf') format("opentype");
+}

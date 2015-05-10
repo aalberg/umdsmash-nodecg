@@ -1,0 +1,15 @@
+{
+  "name": "umdsmash",
+  "version": "1.0.1",
+  "nodecgDependency": "~0.5.0",
+  "description": "Umdsmash stream overlays",
+  "homepage": "twitch.tv/umdsmash",
+  "authors": [
+    "Alex Alberg <aralberg@gmail.com"
+  ],
+  "license": "MIT",
+  "extension": {
+    "express": false,
+    "path": "extension.js"
+  }
+}

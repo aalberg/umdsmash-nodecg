@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'source_sans_pro';
+    font-weight: 700;
+    color: #FFFFFF;
+    background-image: url('../img/Shell-Shocked-XVIII-Game-Overlay.png');
+    top: 0;
+    left: 0;
+}
+.bg-white {
+    /*background-color: #FFFFFF;*/
+}
+.title {
+    visibility: hidden;
+    position: absolute;
+    left: 65px;
+    top: 25px;
+    height: 65px;
+    width: 525px;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.round {
+    position: absolute;
+    left: 157px;
+    top: 22px;
+    height: 65px;
+    width: 1059px;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.player {
+    display: table-cell;
+    position: absolute;
+    bottom: 55px;
+    width: 500px;
+    height: 70px;
+    font-size: 40px;
+}
+.player-left {
+    right: 1335px;
+    text-align: left;
+}
+.player-right {
+    left: 793px;
+    text-align: right;
+}
+.score {
+    position: absolute;
+    top: 22px;
+    width: 75px;
+    height: 65px;
+    font-size: 50px;
+    text-align: center;
+}
+.score-left {
+    right: 1770px;
+}
+.score-right {
+    left: 1223px;
+}
+.char-container {
+    position: absolute;
+    bottom: 62px;
+}
+.char-1 {
+    left: 25px;
+}
+.char-2 {
+    left: 60px;
+    opacity: 0;
+}
+.char-3 {
+    right: 602px;
+    opacity: 0;
+}
+.char-4 {
+    right: 567px;
+}
+.char-image {
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+.bracket-link {
+    visibility: hidden;
+    position: absolute;
+    bottom: 5px;
+    width: 270px;
+    left: 825px;
+    font-size: 24px;
+    visibility: hidden;
+}
+.player_cam {
+    position: absolute;
+    bottom: 780px;
+    right: 25px;
+    width: 515px;
+    height: 65px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    /*color: #000000;
+    background-color: #000000;*/
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}

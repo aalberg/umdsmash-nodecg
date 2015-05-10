@@ -1,0 +1,17 @@
+.umdsmash .npright {
+    padding-right: 0px;
+}
+.umdsmash .npleft {
+    padding-left: 0px;
+}
+.umdsmash .score-input {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.umdsmash .cur-scene {
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+}

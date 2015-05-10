@@ -1,0 +1,7 @@
+{
+  "name": "umdsmash",
+  "dependencies": {
+    "gsap": "^1.15.1",
+    "textfit": "^2.1.1"
+  }
+}
